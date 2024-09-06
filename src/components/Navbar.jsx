@@ -11,6 +11,7 @@ import {
 const Navbar = ({ isAuth }) => {
   return (
     <nav>
+      <div>HOGE</div>
       <Link to="/">
         <FontAwesomeIcon icon={faHouse} />
         Home
